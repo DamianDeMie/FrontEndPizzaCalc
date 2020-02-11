@@ -22,3 +22,13 @@
 .adjust {
     float: right;
 }
+
+footer {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+}

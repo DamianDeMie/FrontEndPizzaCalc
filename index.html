@@ -18,29 +18,31 @@
         </div>
         <div class="w3-row-padding">
             <div class="w3-col m4">
-                <div class="w3-card">
+                <div class="w3-card w3-white">
                     <img class="pizza" src="images/pizzadavinci.jpeg" alt="Pizza Da Vinci" />
                     <div class="w3-container">
                         <h2>Pizza Da Vinci</h2>
-                        <p>Onze specialiteit! <span class='w3-right'>&euro;9,95</span></p>
+                        <button onclick="document.getElementById('pizzadavinci').style.display='block'"
+                            class="w3-button w3-circle w3-teal">+</button>
+                        <p>Onze specialiteit! <span class='w3-right'>&euro; 9,95</span></p>
                     </div>
                 </div>
             </div>
             <div class="w3-col m4">
-                <div class="w3-card">
-                    <img class="pizza" src="images/pizzadavinci.jpeg" alt="Pizza Da Vinci" />
+                <div class="w3-card w3-white">
+                    <img class="pizza" src="images/pizzaroma.jpeg" alt="Pizza Da Vinci" />
                     <div class="w3-container">
-                        <h2>Pizza Da Vinci</h2>
-                        <p>Onze specialiteit! <span class='w3-right'>&euro;9,95</span></p>
+                        <h2>Pizza Roma</h2>
+                        <p>Op zijn Italiaans gemaakt! <span class='w3-right'>&euro; 9,95</span></p>
                     </div>
                 </div>
             </div>
             <div class="w3-col m4">
-                <div class="w3-card">
-                    <img class="pizza" src="images/pizzadavinci.jpeg" alt="Pizza Da Vinci" />
+                <div class="w3-card w3-white">
+                    <img class="pizza" src="images/pizzapi.jpg" alt="Pizza Pi" />
                     <div class="w3-container">
-                        <h2>Pizza Da Vinci</h2>
-                        <p>Onze specialiteit! <span class='w3-right'>&euro;9,95</span></p>
+                        <h2>Pizza &pi;</h2>
+                        <p>Nu met korting! <span class='w3-right'>&euro; 3,14</span></p>
                     </div>
                 </div>
             </div>
@@ -50,36 +52,93 @@
 
         <div class="w3-row-padding">
             <div class="w3-col m4">
-                <div class="w3-card">
-                    <img class="pizza" src="images/pizzadavinci.jpeg" alt="Pizza Da Vinci" />
+                <div class="w3-card w3-white">
+                    <img class="pizza" src="images/pizzaconnor.jpg" alt="Pizza Da Vinci" />
                     <div class="w3-container">
-                        <h2>Pizza Da Vinci</h2>
-                        <p>Onze specialiteit! <span class='w3-right'>&euro;9,95</span></p>
+                        <h2>Pizza Connor</h2>
+                        <p>Mayonaise en doperwten, een verukkelijke combinatie!<span class='w3-right'>&euro; 6,90</span>
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="w3-col m4">
-                <div class="w3-card">
-                    <img class="pizza" src="images/pizzadavinci.jpeg" alt="Pizza Da Vinci" />
+                <div class="w3-card w3-white">
+                    <img class="pizza" src="images/pizzarogier.jpg" alt="Pizza Da Vinci" />
                     <div class="w3-container">
-                        <h2>Pizza Da Vinci</h2>
-                        <p>Onze specialiteit! <span class='w3-right'>&euro;9,95</span></p>
+                        <h2>Pizza Rogier</h2>
+                        <p>Een pizza van Zweedse bodem! Met champignons & banaan!<span class='w3-right'>&euro;
+                                11,95</span></p>
                     </div>
                 </div>
             </div>
             <div class="w3-col m4">
-                <div class="w3-card">
-                    <img class="pizza" src="images/pizzadavinci.jpeg" alt="Pizza Da Vinci" />
+                <div class="w3-card w3-white">
+                    <img class="pizza" src="images/pizzashabala.jpg" alt="Pizza Da Vinci" />
                     <div class="w3-container">
-                        <h2>Pizza Da Vinci</h2>
-                        <p>Onze specialiteit! <span class='w3-right'>&euro;9,95</span></p>
+                        <h2>Pizza Shabala</h2>
+                        <p>Waarom zou je dit ooit in godsnaam kopen?<span class='w3-right'>&euro; 10,95</span></p>
                     </div>
                 </div>
             </div>
         </div>
 
+        <br>
+        <br>
 
+
+        <hr>
+        <footer>&copy; Damian de Mie </footer>
+        <br>
     </div>
-</body>
+
+
+    <!--Pizza Modals-->
+    <div id="pizzadavinci" class="w3-modal">
+        <div class="w3-modal-content w3-animate-zoom">
+            <div class="w3-container">
+                <span onclick="document.getElementById('pizzadavinci').style.display='none'"
+                    class="w3-button w3-display-topright">&times;</span>
+                <br>
+                <div class="w3-row">
+                    <div class="w3-col m6">
+                        <img class="pizza" src="images/pizzadavinci.jpeg" alt="Pizza Da Vinci" />
+                    </div>
+                    <div class="w3-col m6 w3-center">
+                        <h2>Pizza Da Vinci</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla eveniet delectus ad cum
+                            doloremque culpa reiciendis aliquid saepe velit. Veritatis laboriosam quis nemo inventore
+                            numquam quaerat aliquid officia maiores. Eligendi aspernatur quisquam recusandae amet
+                            voluptas,
+                            repudiandae maiores fugiat quas. Magnam obcaecati laboriosam impedit placeat asperiores?
+                            Natus
+                            ea labore cum tempora! </p>
+                    </div>
+                </div>
+                <h2>Ingredienten</h2>
+                <br>
+
+
+                <form class="w3-col m6">
+                    <p>
+                        Saus:
+                        <select class="w3-select" name="option">
+                            <option value="tomatensaus">Tomatensaus</option>
+                            <option value="bbq">Barbequesaus</option>
+                        </select>
+                    </p>
+                    <p>
+                        <input class="w3-check" type="checkbox" checked>
+                        <label>Mozzarella</label></p>
+                    <p>
+                        <input class="w3-check" type="checkbox">
+                        <label>Gehakt</label></p>
+                    <p>
+                        <input class="w3-check" type="checkbox">
+                        <label>Ham</label></p>
+                </form>
+
+            </div>
+        </div>
+    </div>
 
 </html>
