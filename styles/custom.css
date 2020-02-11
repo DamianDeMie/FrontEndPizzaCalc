@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "order_pizzaregular";
+    src: url("../fonts/orderPizza.woff2") format("woff2"),
+        url("../fonts/orderPizza.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {
+    font-family: "order_pizzaregular";
+    font-size: large;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.pizza {
+    width: 100%;
+}
+
+.adjust {
+    float: right;
+}
