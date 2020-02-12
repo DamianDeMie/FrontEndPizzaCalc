@@ -23,6 +23,11 @@
     float: right;
 }
 
+.orderButton {
+    position: absolute;
+    bottom: 0;
+}
+
 footer {
     width: 100%;
     color: white;
